@@ -1,4 +1,4 @@
-# odin-recipes
+# peepo-recipes
 ## Simple HTML practice website
 
 Offers recipes for:
