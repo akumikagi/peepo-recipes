@@ -7,8 +7,13 @@ body {
   font-size: 14px;
 }
 
-img.food {
-  height: auto;
+.peepo {
+  height: 120px;
+  width: 128px;
+}
+
+.food {
+  height: 250px;
   width: 250px;
 }
 
