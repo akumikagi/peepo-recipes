@@ -1,0 +1,22 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.fig {
+  font-style: italic;
+  font-size: 14px;
+}
+
+img.food {
+  height: auto;
+  width: 250px;
+}
+
+#header {
+  background-color: #ffff00;
+  width: fit-content;
+}
+
+button {
+  background-color: #ffffff;
+}
