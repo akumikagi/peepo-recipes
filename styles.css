@@ -1,27 +1,103 @@
-body {
+html {
+  background-color: #000000;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
+body {
+  background-color: #f0ffff;
+  width: 900px;
+  margin: 0 auto;
+}
+
 .fig {
+  width: fit-content;
+  margin: 0 auto;
   font-style: italic;
   font-size: 14px;
 }
 
-.peepo {
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+img.peepo {
   height: 120px;
   width: 128px;
 }
 
-.food {
+img.food {
   height: 250px;
   width: 250px;
 }
 
 #header {
   background-color: #ffff00;
-  width: fit-content;
+  text-align: center;
+  margin-bottom: 16px;
+  padding: 8px 0;
 }
 
 button {
   background-color: #ffffff;
+}
+
+.intro {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0px;
+  padding: 8px 0;
+}
+
+.buttons {
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 16px;
+}
+
+.buttons .pizza,
+.quote.pizza {
+  background-color: #008C45;
+}
+
+.buttons .wings,
+.quote.wings {
+  background-color: #ffffff;
+}
+
+.buttons .cookies,
+.quote.cookies {
+  background-color: #ff0000;
+}
+
+h1, h2,
+h3 {
+  margin: 0;
+}
+
+.quote {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 16px;
+  padding: 8px;
+}
+
+.quote.wings {
+  border-width: 2px 16px 0;
+  border-style: solid;
+  border-color: #ff0000;
+  border-top-color: #008C45;
+  color: #000000;
+}
+
+.comment {
+  border: 2px solid #000000;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.guide {
+  margin-left: 30px;
+  margin-bottom: 16px;
 }
